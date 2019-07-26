@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Report">
+    <TextView
+        android:id="@+id/text_chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Dashboard"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <ScrollView
+        android:id="@+id/content_charts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="10dp"
+        android:layout_below="@+id/text_chart">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/graph"
+                android:layout_width="match_parent"
+                android:layout_height="281dp"></com.github.mikephil.charting.charts.BarChart>
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/chartpie"
+                android:layout_below="@+id/graph"
+                android:layout_width="match_parent"
+                android:paddingTop="30dp"
+                android:layout_height="281dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

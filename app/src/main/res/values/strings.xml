@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">income-expenses</string>
+    <string name="input_email">Email</string>
+    <string name="input_password">Contraseña</string>
+    <string name="input_name_person">Nombres</string>
+    <string name="input_surname_person">Apellidos</string>
+    <string name="save_button">Guardar</string>
+    <string name="type_income">Tipo de Ingreso</string>
+    <string name="amount_income">Monto</string>
+    <string name="concept_expense">Concepto de Egreso</string>
+</resources>

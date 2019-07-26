@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        app:showAsAction="always"
+        android:title="" />
+    <item
+        android:id="@+id/report"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item
+        android:id="@+id/income"
+        android:title="Ingresos"
+        android:icon="@drawable/ic_monetization_on_black_24dp"/>
+    <item
+        android:id="@+id/concept_expenses"
+        android:title="Conceptos de Egresos"
+        android:icon="@drawable/ic_content_paste_black_24dp"/>
+    <item
+        android:id="@+id/expenses"
+        android:title="Egresos"
+        android:icon="@drawable/ic_money_off_black_24dp"/>
+</menu>
